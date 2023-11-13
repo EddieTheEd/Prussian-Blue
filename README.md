@@ -1,6 +1,8 @@
 # Prussian-Blue
 An obsidian theme inspired by Prussian Blue, the colour. Derived from the ProtocolBlue theme.
 
+![thumbnail](assets/thumbnail.png)
+
 ## Showcase:
 
 ![image1](assets/image1.png)
