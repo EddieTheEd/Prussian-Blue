@@ -6,7 +6,7 @@ An obsidian theme inspired by Prussian Blue, the colour. Derived from the Protoc
 ## Showcase:
 
 ![image2](assets/image2.png)
-![image4](assets/image4.png)
+![image4](assets/image3.png)
 
 ## Important note:
 In compliance with the original license of the ProtocolBlue theme, please note that Cosmodium CyberSecurity and any other contributors to the ProtocolBlue theme are NOT endorsing this theme.
