@@ -6,13 +6,13 @@
     --dark0:    #0f1116;
     --dark1:    #1C1D22;
     --dark2:    #393939;
-    --dark3:    #04102b;
-    --dark4:    #14161a;
+    --dark3:    #000716;
+    --dark4:    #00002a;
     --light0:   #5b63ff;
     --light1:   #4867e2;
     --light2:   #ced0ff;
     --light3:   #4e72ff;
-    --frost0:   #122c9b; 
+    --frost0:   #122886; 
     --frost1:   #2F459C;
     --frost3:   #2F459C;
     --frost5:   #2F459C;
@@ -23,9 +23,9 @@
     --teal4:    #2F459C;
 
     /* syntax highlighting */
-    --red:      #ba1717;
+    --red:      #981709;
     --orange:   #ff9035;
-    --yellow:   #f5d000;
+    --yellow:   #FCC200;
     --green:    #37c991;
     --blue:     #63c8da;
     --purple:   #d469c1;
@@ -100,7 +100,7 @@ body
     /* background */
     --background-primary:            var(--dark0);
     --background-primary-alt:        var(--dark0);
-    --background-secondary:          var(--dark4);
+    --background-secondary:          var(--dark0);
     --background-secondary-alt:      var(--dark3);
     --background-modifier-border:    var(--dark2);
 
