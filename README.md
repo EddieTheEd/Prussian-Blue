@@ -6,6 +6,9 @@ An obsidian theme inspired by Prussian Blue, the colour. Derived from the Protoc
 ## Showcase:
 
 ![image1](assets/image1.png)
+
+---
+
 ![image2](assets/image2.png)
 
 ## Important note:
