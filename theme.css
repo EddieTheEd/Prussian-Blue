@@ -8,8 +8,8 @@
     --dark2:    #393939;
     --dark3:    #000716;
     --dark4:    #00002a;
-    --light0:   #5b63ff;
-    --light1:   #4867e2;
+    --light0:   #22198e;
+    --light1:   #889ef9;
     --light2:   #ced0ff;
     --light3:   #4e72ff;
     --frost0:   #122886; 
@@ -18,8 +18,8 @@
     --frost5:   #2F459C;
     --teal0:    #2F459C;
     --teal1:    #2F459C;
-    --teal2:    #2F459C;
-    --teal3:    #2F459C;
+    --teal2:    #8b9bd8;
+    --teal3:    #4568fc;
     --teal4:    #2F459C;
 
     /* syntax highlighting */
@@ -66,13 +66,16 @@ body
 
     /* padding*/
     
+    /* status bar*/ 
+    --status-bar-text-color: var(--teal3) !important;
+    
 }
 
 /* theme */
 .theme-dark
 {
     /* color placement */
-    --link-unresolved-color:         var(--light0);
+    --link-unresolved-color:         var(--light1);
     --color-teal0-rgb:               var(--teal0);
     --color-teal0:                   var(--teal0);
     --color-light3-rgb:              var(--light3);
@@ -109,7 +112,7 @@ body
     /* text */
     --text-normal:                   var(--light2);
     --text-faint:                    var(--light1);
-    --text-muted:                    var(--light0);
+    --text-muted:                    var(--frost0);
     --text-accent:                   var(--teal0);
     --text-accent-hover:             var(--light3);
     --bold-color:                    var(--red);
@@ -174,8 +177,8 @@ body
     --nav-file-tag:                  var(--teal2);
 
     /* graphs */
-    --graph-line:                    var(--dark2);
-    --graph-node:                    var(--teal2);
+    --graph-line:                    var(--teal2);
+    --graph-node:                    var(--teal3);
     --graph-node-tag:                var(--teal4);
     --graph-node-attachment:         var(--teal1);
 
@@ -425,3 +428,4 @@ pre[class*="language-"]
 .cm-editor, .markdown-preview-sizer {
     font-size: 120%;
 }
+
