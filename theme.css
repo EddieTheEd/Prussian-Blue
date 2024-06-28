@@ -4,7 +4,7 @@
 {
     /* theme colors */
     --dark0:    #0f1116;
-    --dark1:    #1C1D22;
+    --dark1:    #1f2026;
     --dark2:    #393939;
     --dark3:    #000716;
     --dark4:    #00002a;
@@ -21,9 +21,10 @@
     --teal2:    #8b9bd8;
     --teal3:    #4568fc;
     --teal4:    #2F459C;
+    --grey:     #595151;
 
     /* syntax highlighting */
-    --red:      #981709;
+    --red:      #c51b0c;
     --orange:   #ff9035;
     --yellow:   #FCC200;
     --green:    #37c991;
@@ -126,7 +127,7 @@ body
     --h2-color:                      var(--frost0);
     --h3-color:                      var(--frost0);
     --h4-color:                      var(--frost0);
-    --h5-color:                      var(--frost0;
+    --h5-color:                      var(--frost0);
     --h6-color:                      var(--frost0);
 
     /* highlighting */
@@ -160,7 +161,7 @@ body
     --flashing-background:           var(--teal4);
 
     /* code blocks */
-    --code-normal:                   var(--frost1);
+    --code-normal:                   var(--light2);
     --code-background:               var(--dark1);
 
     /* mermaid notes */
@@ -299,6 +300,12 @@ pre[class*="language-"]
 .cm-highlight
 {
     color: var(--text-highlight-fg) !important;
+}
+
+/* Strikethrough */
+.cm-strikethrough
+{
+  color: var(--grey) !important;
 }
 
 /* Keep inline code the same between viewer and editor. */
